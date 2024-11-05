@@ -1,5 +1,5 @@
 {
-  "name": "playwright-test-coverage",
+  "name": "@currents/playwright-test-coverage",
   "version": "1.2.12",
   "main": "index.js",
   "files": [
@@ -12,10 +12,16 @@
     "istanbul",
     "babel"
   ],
-  "author": "Anish Karandikar <anishkny@gmail.com>",
+  "author": "Currents Software Inc.",
+  "contributors": [
+    {
+      "name": "Anish Karandikar",
+      "email": "anishkny@gmail.com"
+    }
+  ],
   "license": "MIT",
   "description": "Extends Playwright test to measure code coverage",
-  "repository": "github:anishkny/playwright-test-coverage",
+  "repository": "github:currents-dev/playwright-test-coverage",
   "types": "index.d.ts",
   "peerDependencies": {
     "@playwright/test": "^1.14.1"
@@ -33,5 +39,11 @@
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "istanbul-lib-coverage": "^3.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -1,4 +1,4 @@
-const { test } = require("playwright-test-coverage");
+const { test } = require("@currents/playwright-test-coverage");
 
 const BASE_URL = "http://localhost:3000";
 
